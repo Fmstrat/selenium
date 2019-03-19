@@ -1,5 +1,4 @@
-# selenium
-Docker container for python selenium scripts with Firefox
+# Docker container for python selenium scripts with Firefox 
 
 To use, create your Selenium script, such as this example using Nextcloud:
 
