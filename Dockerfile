@@ -2,6 +2,8 @@ FROM ubuntu
 
 ENV DEBIAN_FRONTEND noninteractive
 
+LABEL testing="true"
+
 RUN apt-get update
 RUN apt-get install -y \
 	wget \

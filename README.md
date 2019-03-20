@@ -81,5 +81,5 @@ test()
 And then run it:
 
 ```
-docker run --rm -ti -v /path/to/script:/data nowsci/selenium /data/script.py
+docker run --rm -ti --shm-size 2g -v /path/to/script:/data nowsci/selenium /data/script.py
 ```
