@@ -36,7 +36,7 @@ def test():
 		assert opts.headless  # Operating in headless mode
 		browser = Firefox(options=opts)
 	except Exception as e:
-		print("  -=- FAIL -=-: Initial load - ", e)
+		print("  -=- FAIL -=-: Browser setup - ", e)
 		return
 
 	# Test title
