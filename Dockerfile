@@ -19,9 +19,9 @@ RUN apt-get purge -y
 RUN pip3 install selenium
 RUN pip install selenium
 
-RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
-RUN tar xvfz geckodriver-v0.24.0-linux64.tar.gz 
-RUN rm geckodriver-v0.24.0-linux64.tar.gz 
+RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz
+RUN tar xvfz geckodriver-v0.26.0-linux64.tar.gz 
+RUN rm geckodriver-v0.26.0-linux64.tar.gz 
 RUN mv geckodriver /bin
 
 ENTRYPOINT ["python3"]
